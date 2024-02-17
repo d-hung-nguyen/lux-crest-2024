@@ -1,5 +1,5 @@
 .lg-css3 {
-    &.lg-zoom-out-in {
+    &.lg-zoom-out-big {
         .lg-item {
             opacity: 0;
 
@@ -8,7 +8,7 @@
             }
 
             &.lg-next-slide {
-                @include scale3d(2, 2, 2);
+                @include scale3d(0, 0, 0);
             }
 
             &.lg-current {

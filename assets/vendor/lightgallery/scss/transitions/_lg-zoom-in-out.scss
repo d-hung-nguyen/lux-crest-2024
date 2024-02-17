@@ -1,14 +1,14 @@
 .lg-css3 {
-    &.lg-zoom-out-in {
+    &.lg-zoom-in-out {
         .lg-item {
             opacity: 0;
 
             &.lg-prev-slide {
-                @include scale3d(0, 0, 0);
+                @include scale3d(2, 2, 2);
             }
 
             &.lg-next-slide {
-                @include scale3d(2, 2, 2);
+                @include scale3d(0, 0, 0);
             }
 
             &.lg-current {
