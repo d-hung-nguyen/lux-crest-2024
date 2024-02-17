@@ -39,8 +39,9 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={850:["KP"]},L={KP:[null,[null,null,"(?:(?:19\\d|2)\\d|85)\\d{6}",null,null,null,null,null,null,[8,10],[6,7]],[null,null,"(?:2\\d|85)\\d{6}",null,null,null,"21234567",null,null,[8],[6,7]],[null,null,"19[1-3]\\d{7}",null,null,null,"1921234567",null,null,[10]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,
+null,null,null,[-1]],"KP",850,"00|99","0",null,null,"0",null,null,null,[[null,"(\\d)(\\d{3})(\\d{4})","$1 $2 $3",["2"],"0$1"],[null,"(\\d{2})(\\d{3})(\\d{3})","$1 $2 $3",["8"],"0$1"],[null,"(\\d{3})(\\d{3})(\\d{4})","$1 $2 $3",["1"],"0$1"]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,"2(?:[0-24-9]\\d\\d|3(?:[0-79]\\d|8[02-9]))\\d{4}",null,null,null,null,null,null,[8]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,
+null,null,[-1]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

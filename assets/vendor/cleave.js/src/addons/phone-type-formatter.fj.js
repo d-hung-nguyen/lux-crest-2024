@@ -39,8 +39,8 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={679:["FJ"]},L={FJ:[null,[null,null,"(?:(?:0800\\d|[235-9])\\d|45)\\d{5}",null,null,null,null,null,null,[7,11]],[null,null,"(?:(?:3[0-5]|8[58])\\d|6(?:03|[25-7]\\d))\\d{4}",null,null,null,"3212345",null,null,[7]],[null,null,"(?:[279]\\d|45|5[01568]|8[034679])\\d{5}",null,null,null,"7012345",null,null,[7]],[null,null,"0800\\d{7}",null,null,null,"08001234567",null,null,[11]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,
+null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"FJ",679,"0(?:0|52)",null,null,null,null,null,"00",null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[235-9]|45"]],[null,"(\\d{4})(\\d{3})(\\d{4})","$1 $2 $3",["0"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

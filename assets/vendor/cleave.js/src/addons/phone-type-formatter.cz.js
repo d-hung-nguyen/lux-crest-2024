@@ -39,8 +39,9 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={420:["CZ"]},L={CZ:[null,[null,null,"(?:[2-578]\\d|60|9\\d{1,4})\\d{7}",null,null,null,null,null,null,[9,10,11,12]],[null,null,"(?:2\\d|3[1257-9]|4[16-9]|5[13-9])\\d{7}",null,null,null,"212345678",null,null,[9]],[null,null,"(?:60[1-8]|7(?:0[2-5]|[2379]\\d))\\d{6}",null,null,null,"601123456",null,null,[9]],[null,null,"800\\d{6}",null,null,null,"800123456",null,null,[9]],[null,null,"9(?:0[05689]|76)\\d{6}",null,null,null,"900123456",null,null,[9]],[null,null,"8[134]\\d{7}",null,null,null,"811234567",
+null,null,[9]],[null,null,"70[01]\\d{6}",null,null,null,"700123456",null,null,[9]],[null,null,"9[17]0\\d{6}",null,null,null,"910123456",null,null,[9]],"CZ",420,"00",null,null,null,null,null,null,null,[[null,"(\\d{3})(\\d{3})(\\d{3})","$1 $2 $3",["[2-8]|9[015-7]"]],[null,"(\\d{2})(\\d{3})(\\d{3})(\\d{3})","$1 $2 $3 $4",["9[36]"]],[null,"(\\d{3})(\\d{3})(\\d{3})(\\d{3})","$1 $2 $3 $4",["96"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,
+null,[-1]],[null,null,"9(?:5\\d|7[2-4])\\d{6}",null,null,null,"972123456",null,null,[9]],null,null,[null,null,"9(?:3\\d{9}|6\\d{7,10})",null,null,null,"93123456789"]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

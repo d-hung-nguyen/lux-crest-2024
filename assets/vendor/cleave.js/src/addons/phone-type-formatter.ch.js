@@ -39,8 +39,9 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={41:["CH"]},L={CH:[null,[null,null,"8\\d{11}|[2-9]\\d{8}",null,null,null,null,null,null,[9,12]],[null,null,"(?:2[12467]|3[1-4]|4[134]|5[256]|6[12]|[7-9]1)\\d{7}",null,null,null,"212345678",null,null,[9]],[null,null,"7[35-9]\\d{7}",null,null,null,"781234567",null,null,[9]],[null,null,"800\\d{6}",null,null,null,"800123456",null,null,[9]],[null,null,"90[016]\\d{6}",null,null,null,"900123456",null,null,[9]],[null,null,"84[0248]\\d{6}",null,null,null,"840123456",null,null,[9]],[null,null,"878\\d{6}",
+null,null,null,"878123456",null,null,[9]],[null,null,null,null,null,null,null,null,null,[-1]],"CH",41,"00","0",null,null,"0",null,null,null,[[null,"(\\d{2})(\\d{3})(\\d{2})(\\d{2})","$1 $2 $3 $4",["[2-7]|[89]1"],"0$1"],[null,"(\\d{3})(\\d{3})(\\d{3})","$1 $2 $3",["8[047]|9"],"0$1"],[null,"(\\d{3})(\\d{2})(\\d{3})(\\d{2})(\\d{2})","$1 $2 $3 $4 $5",["8"],"0$1"]],null,[null,null,"74[0248]\\d{6}",null,null,null,"740123456",null,null,[9]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,
+null,"5[18]\\d{7}",null,null,null,"581234567",null,null,[9]],null,null,[null,null,"860\\d{9}",null,null,null,"860123456789",null,null,[12]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

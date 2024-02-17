@@ -39,8 +39,8 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={356:["MT"]},L={MT:[null,[null,null,"(?:(?:[2579]\\d\\d|800)\\d|3550)\\d{4}",null,null,null,null,null,null,[8]],[null,null,"2(?:0(?:[169]\\d|3[1-4])|[1-357]\\d\\d)\\d{4}",null,null,null,"21001234"],[null,null,"(?:7(?:210|[79]\\d\\d)|9(?:2(?:1[01]|31)|69[67]|8(?:1[1-3]|89|97)|9\\d\\d))\\d{4}",null,null,null,"96961234"],[null,null,"800[3467]\\d{4}",null,null,null,"80071234"],[null,null,"5(?:0(?:0(?:37|43)|(?:6\\d|70|9[0168])\\d)|[12]\\d0[1-5])\\d{3}",null,null,null,"50037123"],[null,null,null,
+null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,"3550\\d{4}",null,null,null,"35501234"],"MT",356,"00",null,null,null,null,null,null,null,[[null,"(\\d{4})(\\d{4})","$1 $2",["[2357-9]"]]],null,[null,null,"7117\\d{4}",null,null,null,"71171234"],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,"501\\d{5}",null,null,null,"50112345"],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

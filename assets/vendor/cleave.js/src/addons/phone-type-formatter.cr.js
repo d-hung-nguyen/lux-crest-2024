@@ -39,8 +39,9 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={506:["CR"]},L={CR:[null,[null,null,"(?:8\\d|90)\\d{8}|[24-8]\\d{7}",null,null,null,null,null,null,[8,10]],[null,null,"2(?:[024-7]\\d\\d|1(?:0[7-9]|[1-9]\\d))\\d{4}",null,null,null,"22123456",null,null,[8]],[null,null,"(?:(?:5(?:0[01]|7[0-3])|(?:7[0-3]|8[3-9])\\d)\\d\\d|6(?:[0-4]\\d{3}|500[01]))\\d{3}",null,null,null,"83123456",null,null,[8]],[null,null,"800\\d{7}",null,null,null,"8001234567",null,null,[10]],[null,null,"90[059]\\d{7}",null,null,null,"9001234567",null,null,[10]],[null,null,null,
+null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,"(?:210[0-6]|4\\d{3}|5100)\\d{4}",null,null,null,"40001234",null,null,[8]],"CR",506,"00",null,null,null,"(19(?:0[0-2468]|1[09]|20|66|77|99))",null,null,null,[[null,"(\\d{4})(\\d{4})","$1 $2",["[24-7]|8[3-9]"],null,"$CC $1"],[null,"(\\d{3})(\\d{3})(\\d{4})","$1-$2-$3",["[89]"],null,"$CC $1"]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,
+[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

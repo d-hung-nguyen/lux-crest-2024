@@ -39,8 +39,9 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={34:["ES"]},L={ES:[null,[null,null,"(?:51|[6-9]\\d)\\d{7}",null,null,null,null,null,null,[9]],[null,null,"(?:8(?:[1356]\\d|[28][0-8]|[47][1-9])\\d{4}|9(?:(?:(?:[135]\\d|[28][0-8]|4[1-9])\\d\\d|7(?:[124-9]\\d\\d|3(?:[0-8]\\d|9[1-9])))\\d\\d|6(?:[0-8]\\d{4}|9(?:0(?:[0-57-9]\\d\\d|6(?:0[0-8]|1[1-9]|[2-9]\\d))|[1-9]\\d{3}))))\\d\\d",null,null,null,"810123456"],[null,null,"(?:(?:6\\d|7[1-48])\\d{5}|9(?:6906(?:09|10)|7390\\d\\d))\\d\\d",null,null,null,"612345678"],[null,null,"[89]00\\d{6}",null,null,
+null,"800123456"],[null,null,"80[367]\\d{6}",null,null,null,"803123456"],[null,null,"90[12]\\d{6}",null,null,null,"901123456"],[null,null,"70\\d{7}",null,null,null,"701234567"],[null,null,null,null,null,null,null,null,null,[-1]],"ES",34,"00",null,null,null,null,null,null,null,[[null,"(\\d{3})(\\d{3})(\\d{3})","$1 $2 $3",["[89]00"]],[null,"(\\d{3})(\\d{2})(\\d{2})(\\d{2})","$1 $2 $3 $4",["[568]|7[0-48]|9(?:0[12]|[1-8])"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,
+null,null,null,null,null,null,null,[-1]],[null,null,"51\\d{7}",null,null,null,"511234567"],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 

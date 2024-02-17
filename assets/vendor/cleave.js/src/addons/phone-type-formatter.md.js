@@ -39,8 +39,8 @@ c:9,type:String},16:{name:"national_prefix_transform_rule",c:9,type:String},18:{
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-var K={674:["NR"]},L={NR:[null,[null,null,"(?:444|55\\d|888)\\d{4}",null,null,null,null,null,null,[7]],[null,null,"(?:444|888)\\d{4}",null,null,null,"4441234"],[null,null,"55[4-9]\\d{4}",null,null,null,"5551234"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],"NR",674,"00",null,null,null,
-null,null,null,null,[[null,"(\\d{3})(\\d{4})","$1 $2",["[458]"]]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
+var K={373:["MD"]},L={MD:[null,[null,null,"(?:[235-7]\\d|[89]0)\\d{6}",null,null,null,null,null,null,[8]],[null,null,"(?:(?:2[1-9]|3[1-79])\\d|5(?:33|5[257]))\\d{5}",null,null,null,"22212345"],[null,null,"(?:562|6\\d\\d|7(?:[189]\\d|6[07]|7[457-9]))\\d{5}",null,null,null,"62112345"],[null,null,"800\\d{5}",null,null,null,"80012345"],[null,null,"90[056]\\d{5}",null,null,null,"90012345"],[null,null,"808\\d{5}",null,null,null,"80812345"],[null,null,null,null,null,null,null,null,null,[-1]],[null,null,
+"3[08]\\d{6}",null,null,null,"30123456"],"MD",373,"00","0",null,null,"0",null,null,null,[[null,"(\\d{2})(\\d{3})(\\d{3})","$1 $2 $3",["22|3"],"0$1"],[null,"(\\d{3})(\\d{2})(\\d{3})","$1 $2 $3",["[25-7]"],"0$1"],[null,"(\\d{3})(\\d{5})","$1 $2",["[89]"],"0$1"]],null,[null,null,null,null,null,null,null,null,null,[-1]],null,null,[null,null,null,null,null,null,null,null,null,[-1]],[null,null,"803\\d{5}",null,null,null,"80312345"],null,null,[null,null,null,null,null,null,null,null,null,[-1]]]};/*
 
  Copyright (C) 2010 The Libphonenumber Authors.
 
